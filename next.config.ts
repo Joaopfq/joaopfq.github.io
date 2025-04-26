@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: '/portfolio',
-  trailingSlash: true, 
+  output: 'export', // Defina isso para exportação estática
 };
 
-export default nextConfig;
+module.exports = nextConfig;

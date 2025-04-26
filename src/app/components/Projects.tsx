@@ -22,19 +22,19 @@ const projects = [
   },
   {
     title: "Track Pet",
-    description: "Aplicação web utilizando Next.js para reportar pets encontrados e perdidos.",
+    description: "Aplicação web social para reportar pets encontrados e perdidos.",
     githubLink: "https://github.com/Joaopfq/track-pet",
     techStack: ["Next.js", "React", "TypeScript", "Tailwind.css"],
   },
   {
     title: "MangaStore",
-    description: "Aplicação web utilizando Vue e TypeScript no frontend, Java para gerenciamento de uma loja de mangás.",
+    description: "Aplicação web para gerenciamento de mangás",
     githubLink: "https://github.com/Joaopfq/MangaStore",
     techStack: ["Vue", "TypeScript", "Java", "Spring Boot"],
   },
   {
     title: "TERTS",
-    description: "Aplicação web em Vue e TypeScript para ensino de refatoração de código de teste",
+    description: "Aplicação web para ensino de refatoração de código de teste",
     githubLink: "https://github.com/DeigelaLima/Tutor_de_ensino_TS",
     techStack: ["Vue", "TypeScript", "Node.js", "JavaScript"],
     liveLink: "https://tutor-de-ensino-ts.vercel.app/"

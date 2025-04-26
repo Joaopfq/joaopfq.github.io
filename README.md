@@ -1,8 +1,8 @@
-# 🌐 Meu Portfólio
+# Meu Portfólio
 
 Este é meu portfólio pessoal como desenvolvedor fullstack. Aqui você encontra meus projetos, tecnologias que domino e formas de entrar em contato comigo.
 
-## 🔧 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
@@ -10,7 +10,7 @@ Este é meu portfólio pessoal como desenvolvedor fullstack. Aqui você encontra
 - [TypeScript](https://www.typescriptlang.org/)
 - [GitHub Pages](https://pages.github.com/)
 
-## 🚀 Acesse
+## Acesse
 
 🔗 [Clique aqui para ver o portfólio online](https://Joaopfq.github.io/portfolio)
 
