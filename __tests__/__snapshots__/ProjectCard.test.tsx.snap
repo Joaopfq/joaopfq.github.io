@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectCard matches snapshot 1`] = `
+<div>
+  <div
+    class="bg-white dark:bg-gray-700 rounded-xl shadow-md p-6 flex flex-col justify-between h-full hover:shadow-lg"
+  >
+    <div>
+      <h4
+        class="text-xl font-semibold mb-2 text-gray-900 dark:text-white"
+      >
+        Test Project
+      </h4>
+      <p
+        class="text-sm text-gray-700 dark:text-gray-300 mb-4"
+      >
+        This is a test project.
+      </p>
+      <div
+        class="mb-4"
+      >
+        <span
+          class="font-medium text-gray-800 dark:text-gray-200"
+        >
+          Tech Stack:
+        </span>
+        <ul
+          class="list-disc list-inside text-sm text-gray-700 dark:text-gray-300 mt-1"
+        >
+          <li>
+            React
+          </li>
+          <li>
+            TypeScript
+          </li>
+          <li>
+            Tailwind CSS
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="mt-4 space-x-4"
+    >
+      <a
+        class="text-blue-600 dark:text-blue-400 hover:underline font-medium"
+        href="https://github.com/example/test-project"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        GitHub
+      </a>
+      <a
+        class="text-green-600 dark:text-green-400 hover:underline font-medium"
+        href="https://example.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Acessar site
+      </a>
+    </div>
+  </div>
+</div>
+`;
