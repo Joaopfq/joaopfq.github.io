@@ -43,7 +43,7 @@ const projects = [
 
 export function Projects() {
     return (
-      <section id="projetos" className="py-16 px-4 bg-gray-100 dark:bg-gray-800">
+      <main id="projetos" className="py-16 px-4 bg-gray-100 dark:bg-gray-800">
         <h3 className="text-3xl font-bold text-center mb-8 text-gray-900 dark:text-white">Projetos</h3>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
           {projects.map((project, index) => (
@@ -57,7 +57,7 @@ export function Projects() {
             />
           ))}
         </div>
-      </section>
+      </main>
     );
   }
   
