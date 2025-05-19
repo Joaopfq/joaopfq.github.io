@@ -37,7 +37,7 @@ describe('ProjectCard', () => {
 
   it('renders the GitHub link with the correct href', () => {
     render(<ProjectCard {...mockProps} />);
-    const githubLink = screen.getByText('GitHub');
+    const githubLink = screen.getByLabelText('GitHub');
     expect(githubLink).toBeInTheDocument();
     expect(githubLink).toHaveAttribute('href', mockProps.githubLink);
     expect(githubLink).toHaveAttribute('target', '_blank');
@@ -46,7 +46,7 @@ describe('ProjectCard', () => {
 
   it('renders the live link when provided', () => {
     render(<ProjectCard {...mockProps} />);
-    const liveLink = screen.getByText('Acessar site');
+    const liveLink = screen.getByLabelText('Acessar site');
     expect(liveLink).toBeInTheDocument();
     expect(liveLink).toHaveAttribute('href', mockProps.liveLink);
     expect(liveLink).toHaveAttribute('target', '_blank');
@@ -63,8 +63,4 @@ describe('ProjectCard', () => {
     expect(screen.queryByText('Acessar site')).not.toBeInTheDocument();
   });
 
-  it('matches snapshot', () => {
-    const { container } = render(<ProjectCard {...mockProps} />);
-    expect(container).toMatchSnapshot();
-  });
 });

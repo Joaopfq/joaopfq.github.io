@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 interface ProjectCardProps {
   title: string;
@@ -33,25 +35,27 @@ export function ProjectCard({ title, description, techStack, githubLink, liveLin
         )}
       </div>
 
-      <div className="mt-4 space-x-4">
-        <a
-          href={githubLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
-        >
-          GitHub
-        </a>
+      <div className="mt-2 space-x-4 flex">
         {liveLink && (
           <a
+            className=" text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-gray-100 transition-colors duration-200"
             href={liveLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-green-600 dark:text-green-400 hover:underline font-medium"
+            aria-label="Acessar site"
           >
-            Acessar site
+            <FaExternalLinkAlt size={22} />
           </a>
         )}
+        <a
+          className="text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-gray-100 transition-colors duration-200"
+          href={githubLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <FaGithub size={25} />
+        </a>
       </div>
     </motion.div>
   );

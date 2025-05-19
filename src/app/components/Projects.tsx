@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: "Birdie",
-    description: "App social desenvolvido com Next.js, React, TypeScript e Tailwind.css",
+    description: "Aplicação web social inspirada no Twitter, onde os usuários podem compartilhar mensagens curtas e imagens.",
     githubLink: "https://github.com/Joaopfq/birdie",
     techStack: ["Next.js", "React", "TypeScript", "Tailwind.css"],
     liveLink: "https://birdie-omega.vercel.app/"
