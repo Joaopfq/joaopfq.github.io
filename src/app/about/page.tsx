@@ -1,23 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import TechWrapper from '../components/TechWrapper'
-// import me from '@/../public/me.jpg'
 
 function About() {
   return (
-    <div className='py-8 bg-gray-100 dark:bg-gray-800'>
-      <div className=" flex justify-evenly">
-        <div className='w-md'>
+    <div className="py-8 bg-gray-100 dark:bg-gray-800">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-evenly gap-8 md:gap-0 max-w-6xl mx-auto px-4">
+        <div className="w-full md:w-4/10 flex flex-col items-center">
           <img
             src={"https://avatars.githubusercontent.com/u/102546648?v=4"}
             alt="João Paulo Freitas Queiroz"
-            className="rounded-full w-48 h-48 mx-auto mb-4 shadow-lg"
+            className="rounded-full w-32 h-32 md:w-48 md:h-48 mx-auto mb-4 shadow-lg object-cover"
           />
           <h4 className="text-xl font-semibold text-center text-gray-900 dark:text-white">João Paulo Freitas Queiroz</h4>
           <p className="py-4 text-center text-gray-700 dark:text-gray-300">Desenvolvedor Fullstack</p>
           <TechWrapper />
         </div>
-        <div className=" flex items-center justify-center">
+        <div className="w-full md:w-6/10 flex items-center justify-center">
           <div className="sm:text-base md:text-lg max-w-2xl mx-auto">
             <h3 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900 dark:text-white text-center">Sobre Mim</h3>
             Sou João Paulo Freitas Queiroz, desenvolvedor Fullstack formado em Engenharia de Software pela Universidade Federal do Ceará (UFC - Quixadá). Tenho experiência no desenvolvimento de aplicações web e mobile, com foco em criar soluções intuitivas, performáticas e escaláveis.
