@@ -1,6 +1,6 @@
 export function Hero() {
     return (
-      <section className="text-center py-16 px-4">
+      <section className="border-b border-b-emerald-800 text-gray-100 text-center py-16 px-4">
         <h3 className="text-2xl md:text-3xl font-bold mb-4">
           Olá! Eu sou João Paulo
         </h3>
