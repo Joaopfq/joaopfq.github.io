@@ -2,13 +2,13 @@ export function Footer() {
   return (
     <footer
       id="contact"
-      className="text-center py-8 border-t mt-auto bg-white dark:bg-gray-900"
+      className="text-center py-8 border-t mt-auto bg-neutral-950"
     >
       <div className="flex flex-col items-center gap-4">
         <div className="flex gap-6 justify-center">
           <a
             href="mailto:joaop3595@gmail.com"
-            className="text-gray-600 dark:text-gray-300 hover:text-green-500 transition"
+            className="text-neutral-300 hover:text-green-500 transition"
             aria-label="E-mail"
           >
             <svg className="inline mr-1 mb-1" fill="none" width={22} height={22} stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -20,7 +20,7 @@ export function Footer() {
             href="https://github.com/Joaopfq"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 dark:text-gray-300 hover:text-green-500 transition"
+            className="text-neutral-300 hover:text-green-500 transition"
             aria-label="GitHub"
           >
             <svg className="inline mr-1 mb-1" width={22} height={22} fill="currentColor" viewBox="0 0 24 24">
@@ -32,7 +32,7 @@ export function Footer() {
             href="https://www.linkedin.com/in/jo%C3%A3o-paulo-freitas-queiroz-345439212/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 dark:text-gray-300 hover:text-green-500 transition"
+            className="text-neutral-300 hover:text-green-500 transition"
             aria-label="LinkedIn"
           >
             <svg className="inline mr-1 mb-1" width={22} height={22} fill="currentColor" viewBox="0 0 24 24">
@@ -41,12 +41,12 @@ export function Footer() {
             LinkedIn
           </a>
         </div>
-        <div className="text-sm text-gray-500 dark:text-gray-400 mt-2">
+        <div className="text-sm text-neutral-400 mt-2">
           <span>
             Localização: Brasil &nbsp;|&nbsp; Feito com <span className="text-green-500">React</span> & <span className="text-cyan-500">Tailwind CSS</span>
           </span>
         </div>
-        <p className="text-xs text-gray-400 mt-3">
+        <p className="text-xs text-neutral-400 mt-3">
           © {new Date().getFullYear()} João Paulo. Todos os direitos reservados.
         </p>
       </div>

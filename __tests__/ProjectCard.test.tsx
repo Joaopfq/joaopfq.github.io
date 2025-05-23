@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
-import { ProjectCard } from '@/app/components/ProjectCard';
+import { ProjectCard } from '@/components/ProjectCard';
 
 describe('ProjectCard', () => {
   const mockProps = {
