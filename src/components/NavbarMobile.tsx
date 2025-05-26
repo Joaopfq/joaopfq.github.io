@@ -24,7 +24,6 @@ export function NavbarMobile() {
       >
         <IoMenu />
       </button>
-      {/* Overlay */}
       {menuOpen && (
         <div
           className="fixed inset-0 z-40"
