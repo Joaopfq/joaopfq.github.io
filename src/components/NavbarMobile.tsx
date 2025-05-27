@@ -56,7 +56,7 @@ export function NavbarMobile() {
                   href={link.href}
                   className={`
                     block py-2 group relative transition-colors duration-200
-                    text-neutral-200 hover:text-neutral-100
+                    text-neutral-200 hover:text-neutral-100 font-semibold
                   `}
                   onClick={() => setMenuOpen(false)}
                 >
