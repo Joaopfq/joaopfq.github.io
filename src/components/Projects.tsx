@@ -71,25 +71,46 @@ export function Projects() {
   return (
     <div id="projetos" className="py-8 px-4 bg-primary">
       <h3 className="text-3xl font-bold text-center mb-8 text-gray-100">Projetos</h3>
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-        {projects.map((project, index) => (
-          <ProjectCard
-            key={index}
-            title={project.title}
-            description={project.description}
-            image={project.image}
-            techStack={
-              project.techStack?.map(tech => {
-                const techData = techIconMap[tech];
-                return techData
-                  ? { icon: techData.icon, colorClass: techData.colorClass, name: tech }
-                  : { icon: null, name: tech, colorClass: "" };
-              }) || []
-            }
-            githubLink={project.githubLink}
-            liveLink={project.liveLink}
-          />
-        ))}
+      {/* Mobile Announcement */}
+      <div className="sm:hidden flex items-center justify-center mb-2">
+        <div className="flex items-center gap-2 text-sm text-neutral-300 bg-neutral-800 rounded-full px-4 py-1 shadow-md animate-pulse">
+          Arraste para ver mais projetos
+          <svg className="w-4 h-4 animate-pulse" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </div>
+      </div>
+      {/* Mobile: horizontal scroll, Desktop: grid */}
+      <div className="max-w-6xl mx-auto">
+        <div className="
+          flex gap-6 overflow-x-auto pb-4
+          sm:grid sm:grid-cols-2 sm:gap-6 sm:overflow-x-visible sm:pb-0
+          lg:grid-cols-3
+          scrollbar-thin scrollbar-thumb-neutral-700 scrollbar-track-neutral-900
+        ">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="min-w-[300px] max-w-[340px] flex-shrink-0 sm:min-w-0 sm:max-w-none"
+            >
+              <ProjectCard
+                title={project.title}
+                description={project.description}
+                image={project.image}
+                techStack={
+                  project.techStack?.map(tech => {
+                    const techData = techIconMap[tech];
+                    return techData
+                      ? { icon: techData.icon, colorClass: techData.colorClass, name: tech }
+                      : { icon: null, name: tech, colorClass: "" };
+                  }) || []
+                }
+                githubLink={project.githubLink}
+                liveLink={project.liveLink}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
