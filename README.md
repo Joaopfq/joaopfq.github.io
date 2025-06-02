@@ -12,5 +12,5 @@ Este é meu portfólio pessoal como desenvolvedor fullstack. Aqui você encontra
 
 ## Acesse
 
-🔗 [Clique aqui para ver o portfólio online](https://Joaopfq.github.io/portfolio)
+🔗 [Clique aqui para ver o portfólio online](https://portfolio-xi-six-44.vercel.app/)
 
