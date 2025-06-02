@@ -8,7 +8,6 @@ Este é meu portfólio pessoal como desenvolvedor fullstack. Aqui você encontra
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [GitHub Pages](https://pages.github.com/)
 
 ## Acesse
 
