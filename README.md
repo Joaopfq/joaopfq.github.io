@@ -1,6 +1,12 @@
-# Meu Portfólio
+# Portfólio - João Paulo F. Queiroz
 
-Este é meu portfólio pessoal como desenvolvedor fullstack. Aqui você encontra meus projetos, tecnologias que domino e formas de entrar em contato comigo.
+Bem-vindo(a) ao meu portfólio! Esta é uma aplicação web que reúne meus principais projetos, experiências, habilidades e informações de contato, desenvolvida com foco em design responsivo, acessibilidade e performance.
+
+## Funcionalidades
+
+- Página inicial com introdução pessoal
+- Sessão de projetos com descrição, tecnologias e links para repositórios
+- Informações sobre experiências acadêmicas e profissionais
 
 ## Tecnologias Utilizadas
 
@@ -11,5 +17,22 @@ Este é meu portfólio pessoal como desenvolvedor fullstack. Aqui você encontra
 
 ## Acesse
 
-🔗 [Clique aqui para ver o portfólio online](https://portfolio-xi-six-44.vercel.app/)
+[Clique aqui para ver o portfólio online](https://portfolio-xi-six-44.vercel.app/)
+
+## Instalação
+
+Para rodar localmente:
+
+```bash
+# Clone o repositório
+git clone git@github.com:Joaopfq/portfolio.git
+
+# Acesse a pasta do projeto
+cd portfolio
+
+# Instale as dependências
+npm i
+
+# Rode o projeto em modo de desenvolvimento
+npm run dev
 
