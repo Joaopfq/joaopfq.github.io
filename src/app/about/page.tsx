@@ -1,5 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from 'next/image';
 import React from 'react'
+import me from "@/../public/me.jpg";
 
 function About() {
   const techs = [
@@ -21,8 +22,11 @@ function About() {
         bg-transparent sm:bg-zinc-950 sm:rounded-2xl sm:shadow-xl">
         <div className="flex flex-col md:flex-row items-center justify-evenly gap-8 md:gap-0">
           <div className="w-full md:w-4/10 flex flex-col items-center order-1 md:order-none">
-            <img
-              src={"https://avatars.githubusercontent.com/u/102546648?v=4"}
+            <Image
+              src={me}
+              width={192}
+              height={192}
+              priority
               alt="João Paulo Freitas Queiroz"
               className="rounded-full w-32 h-32 md:w-48 md:h-48 mx-auto mb-4 shadow-lg object-cover"
             />
